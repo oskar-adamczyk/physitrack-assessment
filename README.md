@@ -8,4 +8,4 @@
 4 | Moved row query with Arel statement   | It is recommended, safer and my personal preference.
 5 | Would add some validations               | depends on business logic but for RoR applications it is recommended to use provided by Active Record functions (not attached to this file due to lack of business logic requirements).
 6 | Abstract class for ApplicationRecords    | generic behaviours (like paranoid removal) gathered in one abstract layer.
-* | Scope must be callable (lambda or Proc)  | even unit one for model behaviours. It would require some additional tech stack like rspec or minitest. Why? Because every piece of code IMHO must be tested to ensure solution quality.
+7 | Scope must be callable (lambda or Proc)  | even unit one for model behaviours. It would require some additional tech stack like rspec or minitest. Why? Because every piece of code IMHO must be tested to ensure solution quality.
